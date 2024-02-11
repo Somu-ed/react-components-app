@@ -7,6 +7,7 @@ import LoadMoreData from './components/load-more-data';
 import QRCodeGenerator from './components/qr-code-generator';
 import RandomColor from './components/random-color-gen';
 import StartRating from './components/star-rating';
+import ThemeSwitcher from './components/theme-switcher';
 import TreeView from './components/tree-view-nav';
 import menuData from './components/tree-view-nav/data';
 
@@ -32,7 +33,10 @@ function App() {
       {/* <TreeView menuData={menuData}/> */}
 
       {/* //* QR Code Generator Component */}
-      <QRCodeGenerator />
+      {/* <QRCodeGenerator /> */}
+
+      {/* //* Theme Switcher Component */}
+      <ThemeSwitcher />
     </div>
   );
 }
