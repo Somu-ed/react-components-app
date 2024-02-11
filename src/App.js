@@ -4,6 +4,7 @@ import './App.css';
 import Accordion from './components/accordion/index';
 import ImageSlider from './components/image-slider';
 import LoadMoreData from './components/load-more-data';
+import QRCodeGenerator from './components/qr-code-generator';
 import RandomColor from './components/random-color-gen';
 import StartRating from './components/star-rating';
 import TreeView from './components/tree-view-nav';
@@ -28,7 +29,10 @@ function App() {
       {/* <LoadMoreData /> */}
 
       {/* //* Tree view Nav Component */}
-      <TreeView menuData={menuData}/>
+      {/* <TreeView menuData={menuData}/> */}
+
+      {/* //* QR Code Generator Component */}
+      <QRCodeGenerator />
     </div>
   );
 }
