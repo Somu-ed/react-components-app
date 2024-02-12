@@ -6,6 +6,7 @@ import ImageSlider from './components/image-slider';
 import LoadMoreData from './components/load-more-data';
 import QRCodeGenerator from './components/qr-code-generator';
 import RandomColor from './components/random-color-gen';
+import ScrollIndicator from './components/scroll-indicator';
 import StartRating from './components/star-rating';
 import ThemeSwitcher from './components/theme-switcher';
 import TreeView from './components/tree-view-nav';
@@ -36,7 +37,10 @@ function App() {
       {/* <QRCodeGenerator /> */}
 
       {/* //* Theme Switcher Component */}
-      <ThemeSwitcher />
+      {/* <ThemeSwitcher /> */}
+
+      {/* //* Scroll Indicator Component */}
+      <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/>
     </div>
   );
 }
