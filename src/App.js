@@ -2,6 +2,7 @@
 import './App.css';
 // * Modules import
 import Accordion from './components/accordion/index';
+import TabNav from './components/custom-tabs';
 import ImageSlider from './components/image-slider';
 import LoadMoreData from './components/load-more-data';
 import QRCodeGenerator from './components/qr-code-generator';
@@ -40,7 +41,10 @@ function App() {
       {/* <ThemeSwitcher /> */}
 
       {/* //* Scroll Indicator Component */}
-      <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/>
+      {/* <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/> */}
+
+      {/* //* Custom Tab Component */}
+      <TabNav />
     </div>
   );
 }
