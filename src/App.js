@@ -2,6 +2,7 @@
 import './App.css';
 // * Modules import
 import Accordion from './components/accordion/index';
+import ModalPage from './components/custom-modal';
 import TabNav from './components/custom-tabs';
 import ImageSlider from './components/image-slider';
 import LoadMoreData from './components/load-more-data';
@@ -44,7 +45,10 @@ function App() {
       {/* <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/> */}
 
       {/* //* Custom Tab Component */}
-      <TabNav />
+      {/* <TabNav /> */}
+
+      {/* //* Custom Modal Component */}
+      <ModalPage />
     </div>
   );
 }
