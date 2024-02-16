@@ -4,6 +4,7 @@ import './App.css';
 import Accordion from './components/accordion/index';
 import ModalPage from './components/custom-modal';
 import TabNav from './components/custom-tabs';
+import GithubProfileFinder from './components/github-profile-finder';
 import ImageSlider from './components/image-slider';
 import LoadMoreData from './components/load-more-data';
 import QRCodeGenerator from './components/qr-code-generator';
@@ -48,7 +49,10 @@ function App() {
       {/* <TabNav /> */}
 
       {/* //* Custom Modal Component */}
-      <ModalPage />
+      {/* <ModalPage /> */}
+
+      {/* //* Github Profile Finder Component */}
+      <GithubProfileFinder />
     </div>
   );
 }
